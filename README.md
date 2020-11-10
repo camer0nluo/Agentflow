@@ -1,23 +1,5 @@
 # Agentflow Documentation
 
-This example shows you how you can use docz as a [Gatsby Theme](https://www.gatsbyjs.org/blog/2018-11-11-introducing-gatsby-themes/) inside your project.
-
-## Using `create-docz-app`
-
-```sh
-npx create-docz-app docz-app-gatsby --example gatsby
-# or
-yarn create docz-app docz-app-gatsby --example gatsby
-```
-
-## Download
-
-```sh
-curl https://codeload.github.com/doczjs/docz/tar.gz/master | tar -xz --strip=2 docz-master/examples/gatsby
-mv gatsby docz-gatsby-example
-cd docz-gatsby-example
-```
-
 ## Setup
 
 ```sh
@@ -41,10 +23,3 @@ yarn build # npm run build
 ```sh
 yarn serve # npm run serve
 ```
-# agentflow-documentation
-# agentflow-documentation
-# agentflow-documentation
-# agentflow-documentation
-# Agentflow
-# Agentflow
-# Agentflow
