@@ -1,0 +1,383 @@
+{
+  "config": {
+    "title": "Agent Flow Documentation",
+    "description": "Example of how to integrate docz with gatsby as a theme",
+    "menu": [
+      "Home",
+      "Components"
+    ],
+    "version": "2.0.0-rc.41",
+    "repository": "https://github.com/pedronauck/docz",
+    "native": false,
+    "themeConfig": {},
+    "separator": "-"
+  },
+  "entries": [
+    {
+      "key": "README.md",
+      "value": {
+        "id": "04c6e90faac2675aa89e2176d2eec7d8",
+        "filepath": "README.md",
+        "fullpath": "/Users/cameronluo/docz-app-gatsby/README.md",
+        "link": "",
+        "hidden": false,
+        "slug": "readme",
+        "route": "/readme",
+        "name": "Readme",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "agentflow-documentation",
+            "depth": 1,
+            "value": "Agentflow Documentation"
+          },
+          {
+            "slug": "using-create-docz-app",
+            "depth": 2,
+            "value": "Using  create-docz-app"
+          },
+          {
+            "slug": "download",
+            "depth": 2,
+            "value": "Download"
+          },
+          {
+            "slug": "setup",
+            "depth": 2,
+            "value": "Setup"
+          },
+          {
+            "slug": "start-developing",
+            "depth": 2,
+            "value": "Start developing"
+          },
+          {
+            "slug": "build",
+            "depth": 2,
+            "value": "Build"
+          },
+          {
+            "slug": "serve-built-app",
+            "depth": 2,
+            "value": "Serve built app"
+          },
+          {
+            "slug": "agentflow-documentation-1",
+            "depth": 1,
+            "value": "agentflow-documentation"
+          },
+          {
+            "slug": "agentflow-documentation-2",
+            "depth": 1,
+            "value": "agentflow-documentation"
+          },
+          {
+            "slug": "agentflow-documentation-3",
+            "depth": 1,
+            "value": "agentflow-documentation"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/components/Alert.mdx",
+      "value": {
+        "name": "Alert",
+        "menu": "Components",
+        "id": "411d2842c3d65e6ee7d3ec119ed4c5a0",
+        "filepath": "src/components/Alert.mdx",
+        "fullpath": "/Users/cameronluo/docz-app-gatsby/src/components/Alert.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-components-alert",
+        "route": "/src-components-alert",
+        "headings": [
+          {
+            "slug": "alert",
+            "depth": 1,
+            "value": "Alert"
+          },
+          {
+            "slug": "properties",
+            "depth": 2,
+            "value": "Properties"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          },
+          {
+            "slug": "using-different-kinds",
+            "depth": 2,
+            "value": "Using different kinds"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/components/Button.mdx",
+      "value": {
+        "name": "Button",
+        "menu": "Components",
+        "id": "94c04b4e4bd29ffbdeec8755c1a4c04f",
+        "filepath": "src/components/Button.mdx",
+        "fullpath": "/Users/cameronluo/docz-app-gatsby/src/components/Button.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-components-button",
+        "route": "/src-components-button",
+        "headings": [
+          {
+            "slug": "button",
+            "depth": 1,
+            "value": "Button"
+          },
+          {
+            "slug": "best-practices",
+            "depth": 3,
+            "value": "Best practices"
+          },
+          {
+            "slug": "properties",
+            "depth": 2,
+            "value": "Properties"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          },
+          {
+            "slug": "with-different-sizes",
+            "depth": 2,
+            "value": "With different sizes"
+          },
+          {
+            "slug": "with-different-colors",
+            "depth": 2,
+            "value": "With different colors"
+          },
+          {
+            "slug": "outlined",
+            "depth": 2,
+            "value": "Outlined"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/Functions/Email.mdx",
+      "value": {
+        "id": "52dabbbdc2ba16cd7b153c763be2953a",
+        "filepath": "src/Functions/Email.mdx",
+        "fullpath": "/Users/cameronluo/docz-app-gatsby/src/Functions/Email.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-functions-email",
+        "route": "/src-functions-email",
+        "name": "Email",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "副本抄送",
+            "depth": 1,
+            "value": "副本抄送"
+          },
+          {
+            "slug": "功能介紹",
+            "depth": 2,
+            "value": "功能介紹"
+          },
+          {
+            "slug": "回文",
+            "depth": 3,
+            "value": "回文"
+          },
+          {
+            "slug": "存查",
+            "depth": 3,
+            "value": "存查"
+          },
+          {
+            "slug": "副本",
+            "depth": 3,
+            "value": "副本"
+          },
+          {
+            "slug": "",
+            "depth": 3,
+            "value": ""
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/Functions/InterfaceGuidelines.mdx",
+      "value": {
+        "id": "42222a1787eca3c5379b50c6d592be9d",
+        "filepath": "src/Functions/InterfaceGuidelines.mdx",
+        "fullpath": "/Users/cameronluo/docz-app-gatsby/src/Functions/InterfaceGuidelines.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-functions-interface-guidelines",
+        "route": "/src-functions-interface-guidelines",
+        "name": "Interface guidelines",
+        "menu": "",
+        "headings": []
+      }
+    },
+    {
+      "key": "src/pages/index.mdx",
+      "value": {
+        "name": "Home",
+        "route": "/",
+        "id": "522b7407e210088f3588b943aec44115",
+        "filepath": "src/pages/index.mdx",
+        "fullpath": "/Users/cameronluo/docz-app-gatsby/src/pages/index.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-pages-index",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "home",
+            "depth": 1,
+            "value": "Home"
+          },
+          {
+            "slug": "consistency",
+            "depth": 2,
+            "value": "Consistency"
+          }
+        ]
+      }
+    }
+  ],
+  "props": [
+    {
+      "key": "src/components/Alert.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Alert",
+          "methods": [],
+          "actualName": "Alert",
+          "props": {
+            "kind": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'info'",
+                    "computed": false
+                  },
+                  {
+                    "value": "'positive'",
+                    "computed": false
+                  },
+                  {
+                    "value": "'negative'",
+                    "computed": false
+                  },
+                  {
+                    "value": "'warning'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": "`info`, `positive`, `negative`, or `warning`",
+              "defaultValue": {
+                "value": "'info'",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src/components/Button.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Button",
+          "methods": [],
+          "actualName": "Button",
+          "props": {
+            "scales": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'small'",
+                    "computed": false
+                  },
+                  {
+                    "value": "'normal'",
+                    "computed": false
+                  },
+                  {
+                    "value": "'big'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "'normal'",
+                "computed": false
+              }
+            },
+            "kind": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'primary'",
+                    "computed": false
+                  },
+                  {
+                    "value": "'secondary'",
+                    "computed": false
+                  },
+                  {
+                    "value": "'cancel'",
+                    "computed": false
+                  },
+                  {
+                    "value": "'dark'",
+                    "computed": false
+                  },
+                  {
+                    "value": "'gray'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "'primary'",
+                "computed": false
+              }
+            },
+            "outline": {
+              "type": {
+                "name": "bool"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "false",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
