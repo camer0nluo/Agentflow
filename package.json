@@ -1,5 +1,5 @@
 {
-    "name": "AgentFlow Documentation",
+    "name": "AgentFlow",
     "private": true,
     "description": "Example of how to integrate docz with gatsby as a theme",
     "version": "2.0.0-rc.41",
@@ -8,12 +8,9 @@
         "docz"
     ],
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/pedronauck/docz/issues"
-    },
     "repository": {
         "type": "git",
-        "url": "https://github.com/pedronauck/docz.git"
+        "url": "https://github.com/camer0nluo/Agentflow.git"
     },
     "scripts": {
         "dev": "gatsby develop",
