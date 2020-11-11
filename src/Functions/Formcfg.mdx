@@ -1,0 +1,88 @@
+# 表單設定
+
+## 文件設定
+
+- 文件紀錄編號方式（表單編號）：MNQXXX-%YYYY%m%d%4S 
+  - XXX為對應表單號碼
+  - **4S須設定每日歸零**
+- 文件狀態
+  - 額外新增 "look" 狀態，enable false所有欄位
+  - 存查與流程結束狀態，enable false所有欄位
+
+## 表單script
+
+### Client端
+
+- openFormUIAction
+
+在列印時隱藏副本抄送與夾檔元件
+```
+{ALL:
+	if(Form.getCurrentTask() == null){
+		try{
+			var state = Form.getStateName();
+		}catch(e){
+			Form.getComponent("AccordionPanel1").setVisible(false);
+			Form.getComponent("AccordionPanel2").setVisible(false);
+		}
+	}
+	var table = Form.getComponent("tbladdSendMailViewList");
+	table.setColHiding(["deptID","MemID","RoleNoCC","選"]);
+}
+```
+
+預設欄位為黑色，在某些狀態下設定為紅色
+```
+{初始化:
+	// 填單必填變色 
+	if(Form.getCurrentTask() != null){
+		Form.getComponent("Label20").setForeground(java.awt.Color.RED);
+		......
+    }
+}
+```
+
+- preAction
+
+找某層級之主管
+```
+var manager;
+var roleId = Form.getCurrentTask().getRoleID();//當前task的人員id
+var managers = Client.getManagersOfDRM(roleId);//取得簽核流程各個層級的主管
+var deptID = "";
+for(var i = 0;  i < managers.size(); i++) {
+    var level = Client.getRole(managers.get(i)[1]).getSignLevel();
+    if(level == 60) {
+        manager = managers.get(i)[0];
+        deptID = managers.get(i)[2];//找到簽核的部門
+        Form.setValue("depIDforSign",deptID);
+        break;
+    }
+}
+Form.setValue("txtSendManagerName", Client.getMemberByID(manager).getName());
+```
+
+逾時稽催必要欄位
+```
+var task = Form.getCurrentTask();
+var mydate = new Packages.pase.agenda.MyDate();
+var currentDate = mydate.getCurrentDate();
+Form.setValue("txtAppDate",currentDate);//新增日期自動顯示	
+Form.setValue("txtApplicantDepID", task.getDepartmentID());
+Form.setValue("txtApplicantUserID", task.getMemberID());
+Form.setValue("txtApplicantRoleID", task.getRoleID());
+```
+ 
+- 副本抄送預設群組
+  - 請參照副本抄送教學
+  - 複製整份localscript
+  - 更改 L500_setInitRoleCC 內的 RoleName = N'XXXX'，XXXX為副本群組設定檔設定的名稱
+  - 須討論並定義群組名稱
+
+### Server端
+
+- 副本抄送元件:參照*副本抄送教學*
+- 寄信功能:參照*六大信件教學*
+- 稽催記點:參照*稽催記點*
+
+## 表單流程
