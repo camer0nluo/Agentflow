@@ -52,6 +52,11 @@
             "slug": "serve-built-app",
             "depth": 2,
             "value": "Serve built app"
+          },
+          {
+            "slug": "deployment",
+            "depth": 2,
+            "value": "Deployment"
           }
         ]
       }
