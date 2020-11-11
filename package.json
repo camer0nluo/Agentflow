@@ -29,6 +29,7 @@
         "react": "^16.9.0",
         "react-dom": "^16.9.0",
         "react-elastic-carousel": "^0.9.3",
-        "react-helmet-async": "^1.0.4"
+        "react-helmet-async": "^1.0.4",
+        "remark-ninja-react": "^2.4.2"
     }
 }

@@ -1,7 +1,7 @@
 {
   "config": {
     "title": "Agent Flow",
-    "description": "Example of how to integrate docz with gatsby as a theme",
+    "description": "AgentFlow Documentation",
     "menu": [
       "Home",
       "Components"
@@ -9,7 +9,9 @@
     "version": "2.0.0-rc.41",
     "repository": "https://github.com/camer0nluo/Agentflow",
     "native": false,
-    "themeConfig": {},
+    "themeConfig": {
+      "initialColorMode": "dark"
+    },
     "separator": "-"
   },
   "entries": [
@@ -122,6 +124,32 @@
       }
     },
     {
+      "key": "src/pages/index.mdx",
+      "value": {
+        "name": "Home",
+        "route": "/",
+        "id": "522b7407e210088f3588b943aec44115",
+        "filepath": "src/pages/index.mdx",
+        "fullpath": "/Users/cameronluo/docz-app-gatsby/src/pages/index.mdx",
+        "link": "https://github.com/camer0nluo/Agentflow/edit/master/src/pages/index.mdx",
+        "hidden": false,
+        "slug": "src-pages-index",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "home",
+            "depth": 1,
+            "value": "Home"
+          },
+          {
+            "slug": "consistency",
+            "depth": 2,
+            "value": "Consistency"
+          }
+        ]
+      }
+    },
+    {
       "key": "src/components/Alert.mdx",
       "value": {
         "name": "Alert",
@@ -204,32 +232,6 @@
             "slug": "outlined",
             "depth": 2,
             "value": "Outlined"
-          }
-        ]
-      }
-    },
-    {
-      "key": "src/pages/index.mdx",
-      "value": {
-        "name": "Home",
-        "route": "/",
-        "id": "522b7407e210088f3588b943aec44115",
-        "filepath": "src/pages/index.mdx",
-        "fullpath": "/Users/cameronluo/docz-app-gatsby/src/pages/index.mdx",
-        "link": "https://github.com/camer0nluo/Agentflow/edit/master/src/pages/index.mdx",
-        "hidden": false,
-        "slug": "src-pages-index",
-        "menu": "",
-        "headings": [
-          {
-            "slug": "home",
-            "depth": 1,
-            "value": "Home"
-          },
-          {
-            "slug": "consistency",
-            "depth": 2,
-            "value": "Consistency"
           }
         ]
       }

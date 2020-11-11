@@ -1,3 +1,6 @@
 export default {
-  menu: ['Home', 'Components'],
-}
+  menu: ["Home", "Components"],
+  themeConfig: {
+    initialColorMode: "dark",
+  },
+};
